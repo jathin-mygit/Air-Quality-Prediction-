@@ -1,42 +1,42 @@
-<div align="center"><img src="https://img.shields.io/badge/Air%20Quality%20Prediction-Machine%20Learning-green?style=for-the-badge&logo=python"></div>
-# Air Quality Prediction Using Machine Learning
-📊 Project Overview
+
+# Air Quality Prediction Using Machine Learning <br>
+📊 Project Overview<br>
 This project implements a machine learning workflow to predict the Air Quality Index (AQI) for major Indian cities using multiple pollutant and environmental parameters. It follows all requirements specified by INLIGHN TECH for educational, research, or demo use, and is fully compatible with Google Colab.
 
-🚀 Features
-Complete data preprocessing pipeline for air quality data
+# Features <br>
+Complete data preprocessing pipeline for air quality data <br>
 
-Missing value handling (marked as -200 → imputed with mean)
+Missing value handling (marked as -200 → imputed with mean) <br>
 
-Multiple model comparison: Random Forest, Linear Regression, SVR
+Multiple model comparison: Random Forest, Linear Regression, SVR <br>
 
-Feature correlation & importance analysis
+Feature correlation & importance analysis <br>
 
-Visualization suite: distributions, missing values, prediction performance
+Visualization suite: distributions, missing values, prediction performance <br>
 
-Easy export of all results (CSV)
+Easy export of all results (CSV) <br>
 
-Detailed metrics reporting (MAE, RMSE, R²)
+Detailed metrics reporting (MAE, RMSE, R²) <br>
 
-Jupyter Notebook (.ipynb) ready for Colab
+Jupyter Notebook (.ipynb) ready for Colab <br>
 
-Synthetic realistic dataset for demonstration
+Synthetic realistic dataset for demonstration <br>
 
-📂 Dataset Information
-Filename: air_quality_dataset.csv
+# Dataset Information <br>
+Filename: air_quality_dataset.csv <br>
 
-Rows: 8,760 (12 cities, daily data for 2 years)
+Rows: 8,760 (12 cities, daily data for 2 years) <br>
 
-Columns:
+Columns: <br>
 
-city, date, aqi (target)
+city, date, aqi (target) <br>
 
-co, no, no2, o3, so2, pm2_5, pm10, nh3
+co, no, no2, o3, so2, pm2_5, pm10, nh3 <br>
+ 
+Time Range: 2022-01-01 to 2023-12-31 <br>
 
-Time Range: 2022-01-01 to 2023-12-31
-
-Missing Values: ~2% of pollutant entries (-200) as per requirements
-How to Run
+Missing Values: ~2% of pollutant entries (-200) as per requirements <br>
+# How to Run
 Open Google Colab and upload Air_Quality_Prediction_Project.ipynb and air_quality_dataset.csv.
 
 Run cells sequentially. Code is modular and well-commented.
